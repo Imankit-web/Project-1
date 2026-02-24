@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;  
+  border: 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #111111;
+}
+
+body {  
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 285px;
+  height: 388px;
+  background-color: #A3C3D9;
+  border-radius: 2.6px;
+}
+
+/* Input Box */
+.input-box {
+  width: 285px;
+  height: 80px;
+  background-color: #CCD6EB;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  text-align: right;
+  direction: ltr; /* cursor stays on left side */
+  font-size: 2rem;
+}
+
+/* Action Keys */
+.action-keys {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.action-keys button {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #CCD6EB;
+  cursor: pointer;
+}
+
+/* Colors */
+#all-clear {
+  background-color: hotpink;
+}
+.action-button {
+  background-color: lavender;
+}
+#equal {
+  background-color: pink;
+}
+
+/* Number Buttons */
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.numbers button {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #CCD6EB;
+  cursor: pointer;
+}
+
+
+
+button:active {
+  transform: scale(0.95);
+}
